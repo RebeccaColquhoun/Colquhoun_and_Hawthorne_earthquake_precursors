@@ -6,7 +6,7 @@ Created on Thu Jan  9 13:43:10 2020
 @author: Rebecca
 """
 import NZfunctions
-import simpleexample3
+import PC_calculator
 import numpy as np
 import matplotlib
 import pickle
@@ -60,8 +60,8 @@ def runPC(j):
     else:
         print('path')
         path = '/home/earthquakes1/homes/Rebecca/NZPaperData/PCResults/'+str(eqFolders[j])+'.pdf'
-        print('simple exmaple')
-        P, t, peakLocations2, peakLocations3, peakLocations4,  seqLocations2, seqLocations3, seqLocations4 = simpleexample3.calcPC(data,templates,path, eqFolders[j], False)
+        print('lets go!')
+        P, t, peakLocations2, peakLocations3, peakLocations4,  seqLocations2, seqLocations3, seqLocations4 = PC_calculator.calcPC(data,templates,path, eqFolders[j], False)
         # print('del')
         # delattr(P, 'd')
         with open('/home/earthquakes1/homes/Rebecca/NZPaperData/'+eqFolders[j]+'/P.pkl', 'wb') as output: 
