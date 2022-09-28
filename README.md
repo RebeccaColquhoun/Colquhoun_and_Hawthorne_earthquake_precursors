@@ -5,3 +5,6 @@ Basic example of codes used in the calculation of Colquhoun and Hawthorne (submi
 ## Use of code:
 1. calculatePC_multiprocessing --> this creates a phase coherence object for each earthquake, and calculates the phase coherence. Uses PC_calculator and PhaseCoherence
 2. consolidate_detections --> this takes phase coherence detections from each earthquakes objects, and concatenates them into lists, based on detection limit. 
+
+##Data:
+Expects data to be arranged in folders, by earthquake. 
