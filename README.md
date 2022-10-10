@@ -5,7 +5,7 @@ Basic example of codes used in the calculation of Colquhoun and Hawthorne (submi
 ## Requirements
 A number of packages are required to run the code. Distributed packages are listed in the yml file, from which a conda environment can be created as follows:
 ```bash
-conda env create -f phasecoherencedependancies.yml
+conda env create -f phasecoherencedependencies.yml
 ```
 
 Other requirements are provided in this depository.
