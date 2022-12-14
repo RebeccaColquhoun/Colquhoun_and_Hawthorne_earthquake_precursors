@@ -1,6 +1,6 @@
 # Basic code repository for Colquhoun and Hawthorne -- Investigating earthquake precursors: can they help to constrain earthquake nucleation processes?
 
-Basic example of codes used in the calculation of Colquhoun and Hawthorne (submitted to EPSL, 2022)
+Basic example of codes used in the calculation of Colquhoun and Hawthorne (submitted to EPSL, December 2022)
 
 ## Requirements
 A number of packages are required to run the code. Distributed packages are listed in the yml file, from which a conda environment can be created as follows:
